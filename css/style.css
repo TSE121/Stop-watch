@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(12, 12, 12, 0.801);
+}
+
+.container{
+    position: relative;
+    display: inline;
+    margin: auto;
+    top: 40px;
+}
+.container__clock{
+    color: antiquewhite;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container__buttons{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container__buttons>button{
+    background-color: antiquewhite;
+    padding:  20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
